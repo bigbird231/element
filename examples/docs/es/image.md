@@ -62,7 +62,7 @@ Además de las características nativas de img, soporte de carga perezosa, marca
 
 ### Fallo de carga
 
-:::demo Personalice el contenido cuando ocurra algun error al cargar la imagen via `slot = error`
+:::demo Personalice el contenido cuando ocurra algún error al cargar la imagen vía `slot = error`
 ```html
 <div class="demo-image__error">
   <div class="block">
@@ -114,8 +114,9 @@ Además de las características nativas de img, soporte de carga perezosa, marca
 | Atributo | Descripción | Tipo | Valores aceptados | Por defecto |
 |---------- |-------- |---------- |-------------  |-------- |
 | src | origen de la imagen, igual que en nativo | string | — | - |
-| fit | Indica como la imagen debe adaptarse al contenendor, lo mismo que [object-fit](https://developer.mozilla.org/es/docs/Web/CSS/object-fit) | fill / contain / cover / none / scale-down | — | - |
+| fit | Indica como la imagen debe adaptarse al contenedor, lo mismo que [object-fit](https://developer.mozilla.org/es/docs/Web/CSS/object-fit) | string | fill / contain / cover / none / scale-down | - |
 | alt | alt nativo | string | - | - |
+| referrer-policy | referrerPolicy nativo | string | - | - |
 | lazy | si se usara lazy load | boolean | — | false |
 | scroll-container | El contenedor para añadir el scroll listener cuando se utiliza lazy load | string / HTMLElement | — | El contenedor padre más cercano cuya propiedad de desbordamiento es auto o scroll |
 
